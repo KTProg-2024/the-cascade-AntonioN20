@@ -1,1 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
 
+#One {
+  color:purple;
+  font-style:italic;
+}
+
+h2 {
+  color:green;
+}
+
+h2 + p {
+  text-decoration: underline;
+  text-align: center;
+  font-weight:bold !important;
+}
+
+.shadow {
+  text-shadow:2px 2px lightgreen;
+  text-decoration: underline dotted;
+}
+
+div + h2 {
+  text-decoration: underline dotted;
+}
+
+.First {
+  color:Red;
+}
+
+.class5 {
+  color:teal;
+  font-weight:bold;
+  font-family:'Courier New', Courier, monospace;
+}
+
+div h2 {
+  text-decoration: underline wavy;
+}
+
+#Six {
+  text-align: right;
+}
+
+h2 + p + p {
+  color:orange;
+}
+
+div p + p {
+  color:blue;
+}
+
+div {
+  background-color:bisque;
+  border-style:solid;
+  border-color:brown;
+  border-width: 3px;
+}
